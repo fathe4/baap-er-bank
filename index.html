@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header class="w-3/4 mx-auto ">
+        <h2 class="text-6xl text-center mt-16 font-black">Welcome to my
+            <span class="text-purple-600"> Baap ER bank!!!</span>
+        </h2>
+
+        <div class="mt-8 bg-indigo-600 mt-16	py-16 rounded	">
+            <h3 class="text-3xl	text-white font-semibold mb-8 text-center	">Please Login </h3>
+
+            <input type="text" placeholder="Enter email" id="input-email"
+                class="border p-2 block w-3/4 mb-3 rounded mx-auto shadow-md">
+            <input id="password" type="password" placeholder="Enter Password"
+                class="border p-2 block w-3/4 rounded mx-auto shadow-md">
+            <p id="wrong-info text-red-500	text-lg	">wrong info</p>
+            <button id="submit-btn"
+                class="bg-white rounded font-semibold mt-4 mx-auto block shadow-md py-3 px-6">Submit</button>
+
+        </div>
+    </header>
+    <script src="login.js"> </script>
+</body>
+
+</html>
